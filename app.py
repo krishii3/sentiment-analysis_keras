@@ -45,9 +45,13 @@ app = Flask(__name__)
 def home():
 	return render_template('home.html')
 
+# Changes Start
 
 
 
+
+
+# Changes End
 
 def decode_sentiment(score, include_neutral=True):
     if include_neutral:        
