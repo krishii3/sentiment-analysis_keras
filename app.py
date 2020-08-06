@@ -15,7 +15,7 @@ from tensorflow.keras.models import load_model
 # from PIL import Image
 #except ImportError:
 # import Image
-#import pickles
+#import pickle
 
 ##############################################################################
 #pre-requisites variables and other essentials.
