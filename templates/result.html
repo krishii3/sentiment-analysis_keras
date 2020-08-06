@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			ML App
+		</div>
+		<h2>Sentiment Analyzer: OCR</h2>
+		
+	</div>
+	</header>
+	<p style="color:#55dddd;font-size:20;text-align: center;"><b>Results for Comment</b></p>
+	<div class="results">
+		
+	{% if label == 'NEUTRAL' %}
+	<h2 style="color:#888;">NEUTRAL</h2>
+	{% elif label == 'POSITIVE' %}
+	<h2 style="color:green;">POSITIVE</h2>
+	{% elif label == 'NEGATIVE' %}
+	<h2 style="color:darkred;">NEGATIVE</h2>
+	{% endif %}
+
+	</div>
+
+</body>
+</html>

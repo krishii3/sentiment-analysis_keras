@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
+	<link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			Machine Learning App with Flask
+		</div>
+		<h2>Sentiment Analyzer using OCR </h2>
+		
+	</div>
+	</header>
+
+	<div class="ml-container">
+
+		<form action="/predict" method="POST">
+			
+			<label for="message">Enter you message:</label>
+    		<input type="text" id="message" name="message" width="48" height="48">
+    		<br/>
+    
+    		<input type="submit" class="btn-info" value="prediction">
+		
+    	</form>
+	</div>
+	
+	
+
+</body>
+</html>
