@@ -34,7 +34,7 @@ SENTIMENT_THRESHOLDS = (0.4, 0.7)
 ##############################################################################
 # load the model from disk
 ##############################################################################
-prediction_model = load_model("https://drive.google.com/file/d/1iNzjNMZK9K5lqoAAphjAdumoU9PopGC2/view?usp=sharing")
+prediction_model = load_model("model.h5")
 tokenizer = Tokenizer()
 #token_model =pickle.load(open('tokenizer.pkl','rb'))
 
